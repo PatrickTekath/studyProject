@@ -1,5 +1,7 @@
 package com.example.samsungtest;
 
+
+import org.openni.OpenNI;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
@@ -19,6 +21,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		startBluetooth();
+		// initializeOpenNI();
 	}
 
 	@Override
@@ -45,6 +48,11 @@ public class MainActivity extends Activity {
 		// Starts a new Activity
 		Intent intent = new Intent(this, OpenNIActivity.class);
 		startActivity(intent);
+	}
+	
+	public void initializeOpenNI()
+	{
+		OpenNI.initialize();
 	}
 	
 	public void startBluetooth()
