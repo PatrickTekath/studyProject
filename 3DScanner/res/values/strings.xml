@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default strings -->
+    <string name="app_name">3DScanner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Button strings -->
+    <string name="btnBluetooth">Bluetooth</string>
+    <string name="btnCamera">Camera</string>
+    
+    <!-- ImageView strings -->
+    <string name="imageViewCamera">ImageViewCamera</string>
+
+</resources>
